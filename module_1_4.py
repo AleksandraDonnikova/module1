@@ -1,9 +1,10 @@
-my_string=input("How old are you? ")
-print("How old are you? ".upper())
-print("How old are you? ".lower())
-print("How old are you? ".replace(" ", ""))
+my_string=input("Who are you? ")
+print(len(my_string))
+print(my_string.upper())
+print(my_string.lower())
+print(my_string.replace(" ", ""))
 print(my_string[0])
-print(my_string[1])
+print(my_string[-1])
 
 
 
